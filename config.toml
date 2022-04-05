@@ -4,3 +4,7 @@ contentdir = 'content'
 layoutdir = 'layouts'
 title = '青椒肉丝-Qingjrs'
 theme = 'PaperMod'
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
