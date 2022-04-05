@@ -1,6 +1,8 @@
 ---
 title: "About"
 date: 2022-04-05T08:47:37+08:00
+categories: [development]
+tags: [about]
 draft: false
 ---
 
