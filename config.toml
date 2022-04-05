@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = './'
 languageCode = 'zh-cn'
 contentdir = 'content'
 layoutdir = 'layouts'
