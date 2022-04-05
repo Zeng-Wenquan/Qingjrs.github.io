@@ -1,0 +1,6 @@
+baseURL = 'http://example.org/'
+languageCode = 'zh-cn'
+contentdir = 'content'
+layoutdir = 'layouts'
+title = '青椒肉丝-Qingjrs'
+theme = 'PaperMod'
