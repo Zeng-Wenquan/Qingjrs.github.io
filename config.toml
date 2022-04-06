@@ -1,16 +1,20 @@
-baseURL = './'
+baseURL = '/'
 languageCode = 'zh-cn'
 contentdir = 'content'
 layoutdir = 'layouts'
 builddrafts = false
 title = '青椒肉丝-Qingjrs'
 theme = 'PaperMod'
-
 [[menu.main]]
   name = 'Home'
   weight = 10
   identifier = 'home'
   url = '/'
+[[menu.main]]
+  name = 'Posts'
+  weight = 10
+  identifier = 'posts'
+  url = '/posts/'
 [[menu.main]]
   name = 'Archives'
   weight = 20
@@ -26,11 +30,11 @@ theme = 'PaperMod'
 
 [params]
   author = 'Zeng Wenquan'
-  defaultTheme = 'auto'
+  # defaultTheme = 'auto'
   # ShowShareButtons = true
   ShowReadingTime = true
   displayFullLangName = true
-  ShowPostNavLinks = true
+  # ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
