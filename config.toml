@@ -1,4 +1,4 @@
-baseURL = './'
+baseURL = 'https://qingjrs.com/'
 languageCode = 'zh-cn'
 contentdir = 'content'
 layoutdir = 'layouts'
@@ -15,19 +15,19 @@ theme = 'PaperMod'
   name = 'Posts'
   weight = 10
   identifier = 'posts'
-  url = 'posts'
+  url = '/posts/'
 [[menu.main]]
   name = 'Archives'
   weight = 20
-  url = 'archives'
+  url = '/archives/'
 [[menu.main]]
   name = 'Categories'
   weight = 30
-  url = 'categories'
+  url = '/categories/'
 [[menu.main]]
   name = 'Tags'
   weight = 40
-  url = 'tags'
+  url = '/tags/'
 
 [params]
   author = 'Zeng Wenquan'
