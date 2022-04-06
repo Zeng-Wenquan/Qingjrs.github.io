@@ -7,15 +7,10 @@ title = '青椒肉丝-Qingjrs'
 theme = 'PaperMod'
 
 [[menu.main]]
-  name = 'Home'
-  weight = 1
-  identifier = 'home'
-  url = '/'
-[[menu.main]]
   name = 'Posts'
-  weight = 10
+  weight = 1
   identifier = 'posts'
-  url = '/posts/'
+  url = '/'
 [[menu.main]]
   name = 'Archives'
   weight = 20
