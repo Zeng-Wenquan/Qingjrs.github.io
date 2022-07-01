@@ -7,7 +7,7 @@ title = '青椒肉丝-Qingjrs'
 theme = 'PaperMod'
 
 [[menu.main]]
-  name = 'Home'
+  name = '首页' 
   weight = 1
   identifier = 'home'
   url = '/'

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>青椒肉丝-Qingjrs</title>
+    <link>https://qingjrs.com/</link>
+    <description>Recent content on 青椒肉丝-Qingjrs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 06 Apr 2022 21:59:44 +0800</lastBuildDate><atom:link href="https://qingjrs.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>影调</title>
+      <link>https://qingjrs.com/posts/%E5%BD%B1%E8%B0%83/</link>
+      <pubDate>Wed, 06 Apr 2022 21:59:44 +0800</pubDate>
+      
+      <guid>https://qingjrs.com/posts/%E5%BD%B1%E8%B0%83/</guid>
+      <description>影调 什么是影调  概念  指一张照片的明暗程度 明亮照片就是高调 阴暗的照片就是低调 本身就明亮的物体应该用高调表现，本身就黑的物体应该用低调表现   作用  通过明暗的表现给观者以相应的感受来表达摄影师的创作意图 明确主体，突出主体，简化画面   18%度灰  极白与极黑的中间点 表示中间调，也称为中性灰 大多数照片多是中间调，少数场景需要用高调或者低调来表现     影调的量化  曝光补偿  单位为 EV 0EV 表示中间调 +1EV 表示 0EV 的 2 倍 +2EV 表示+1EV 的 2 倍 -1EV 表示 0EV 的 1/2 每一个 EV 的亮度差都是 2 倍关系   测光系统  智能测光 中央重点平均测光 点测光     控制影调  挡位：  P 挡：程序曝光 A 挡、Av 挡：光圈优先 S 挡、Tv 挡：快门优先 AUTO 挡：自动挡   对角线为半黑半白的方形标识，内有“+”和“-”号就是曝光补偿按钮 能够调节曝光补偿是 P 挡与 AUTO 挡最大的区别，也是在光圈优先和快门优先可以直接控制照片影调的唯一手段  </description>
+    </item>
+    
+    <item>
+      <title>焦距与取景</title>
+      <link>https://qingjrs.com/posts/%E7%84%A6%E8%B7%9D%E4%B8%8E%E5%8F%96%E6%99%AF/</link>
+      <pubDate>Tue, 05 Apr 2022 18:48:58 +0800</pubDate>
+      
+      <guid>https://qingjrs.com/posts/%E7%84%A6%E8%B7%9D%E4%B8%8E%E5%8F%96%E6%99%AF/</guid>
+      <description>焦距与取景 焦距与题材  鱼眼 超广角  一般指 24mm 一下的焦距，视角大 适合拍摄大场景，建筑、风景、新闻摄影   24mm 和 28mm  标准广角焦距 拍摄风景、游照   35mm  拍摄人文最好的焦距   50mm  标准镜头 拍摄人文、人像   85mm  拍摄人像的焦距 主要用于模特大头照或者特写     标准变焦镜头：
+ 100mm  微距镜头 适合拍摄昆虫等题材   135mm  人像焦距 需要离人远一点   200mm 和 300mm  长焦 适合拍摄远处的景物、鸟类、花等   超长焦  300mm 以上的焦距 适合野生动物、运动题材或者狗仔偷拍   等效焦距  实际焦距 x 镜头转换系数 全画幅：镜头转换系数 1.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://qingjrs.com/posts/about/</link>
+      <pubDate>Tue, 05 Apr 2022 08:47:37 +0800</pubDate>
+      
+      <guid>https://qingjrs.com/posts/about/</guid>
+      <description>关于我 一个前端开发者
+热爱篮球、游泳和摄影
+喜欢独处、喜欢阅读</description>
+    </item>
+    
+    
+  </channel>
+</rss>
