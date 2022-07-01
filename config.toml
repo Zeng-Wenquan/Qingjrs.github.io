@@ -12,15 +12,15 @@ theme = 'PaperMod'
   identifier = 'posts'
   url = '/'
 [[menu.main]]
-  name = 'Archives'
+  name = '归档'
   weight = 20
   url = '/archives/'
 [[menu.main]]
-  name = 'Categories'
+  name = '目录'
   weight = 30
   url = '/categories/'
 [[menu.main]]
-  name = 'Tags'
+  name = '标签'
   weight = 40
   url = '/tags/'
 
