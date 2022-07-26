@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - main  # 當main分支有push操作時
+      - main # 當main分支有push操作時
 
 jobs:
   deploy:
@@ -11,14 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # 找尋Hugo主題(true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # 找尋Hugo主題(true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.96.0' # hugo 版本
-          extended: true  # 如果是使用extended版本的務必取消註解。
+          hugo-version: "0.96.0" # hugo 版本
+          extended: true # 如果是使用extended版本的務必取消註解。
 
       - name: Build
         run: hugo --minify
@@ -26,7 +26,8 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_BLOG_SECRET }}
-          PUBLISH_BRANCH: gh-pages  # 推送到 gh-pages 分支
-          PUBLISH_DIR: ./public     # hugo 生成的目录
+          # github_token: ${{ secrets.MY_BLOG_SECRET }}
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PUBLISH_BRANCH: gh-pages # 推送到 gh-pages 分支
+          PUBLISH_DIR: ./public # hugo 生成的目录
           commit_message: ${{ github.event.head_commit.message }}
